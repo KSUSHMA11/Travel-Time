@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    background-image: url('https://www.wallpaperflare.com/static/691/689/308/landscape-tropical-island-clouds-wallpaper.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    font-family: Arial, sans-serif;
+   
+}
+
+.container {
+    text-align:center;
+    margin-top :160px;
+    color: rgb(0, 0, 0); 
+    
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.description {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid rgb(0, 193, 219); 
+    color: rgb(0, 0, 0); 
+    border-radius: 5px; 
+    transition: background-color 0.3s, color 0.3s; 
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.1); 
+    color: white;
+    
+}
+
+ul {
+    list-style-type: none; 
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none; 
+}
